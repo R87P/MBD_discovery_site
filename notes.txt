@@ -1,0 +1,12 @@
+FONTS:
+font-family: 'Capriola', sans-serif;
+font-family: 'Fresca', sans-serif;
+font-family: 'Libre Bodoni', serif;
+font-family: 'Roboto', sans-serif;
+
+COLORS:
+#DD7596
+#058ED9
+#F4EBD9
+#F8CC46
+#62466B
