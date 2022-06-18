@@ -12,16 +12,16 @@ body {
 nav {
 
     ul{
-        display: flex;
+            display: flex;
             flex-direction: row;
             justify-content: space-between;
+
         li{
             display: flex;
             flex-direction: column;
             text-align: center;
             font-family: 'Roboto', sans-serif;
-            font-weight: bolder;
-            padding: 0%;
+            font-size: large;
             
         }
     }
@@ -102,6 +102,11 @@ nav {
         width: 40rem;
     }
 
+    .h3 {
+        font-family: 'Fresca', sans-serif;
+        font-size: xxx-large;
+        margin-bottom: 5rem;
+    }
 
     .desc-insurance {
 

@@ -31,8 +31,7 @@ nav ul li {
           flex-direction: column;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-weight: bolder;
-  padding: 0%;
+  font-size: large;
 }
 
 .hero {
@@ -138,6 +137,12 @@ nav ul li {
 .insurances img {
   height: 60vh;
   width: 40rem;
+}
+
+.insurances .h3 {
+  font-family: 'Fresca', sans-serif;
+  font-size: xxx-large;
+  margin-bottom: 5rem;
 }
 
 .insurances .desc-insurance {
