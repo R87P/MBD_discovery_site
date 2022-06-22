@@ -10,3 +10,19 @@ COLORS:
 #F4EBD9
 #F8CC46
 #62466B
+
+COLORS THAT GO WITH TAN:
+Purple = #62466B
+White = #FFFFFF
+Teal = #008080
+Blush = #de5d83
+Brown = #964B00
+Black = #000000
+Blue = #0000FF
+Coral = #FF7F50
+Gray = #808080
+Rust =  #b7410e 
+Hunter Green = #008000
+Olive Green = #808000
+Orange = #FFA500
+Red = #FF0000

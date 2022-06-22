@@ -32,6 +32,11 @@ nav ul li {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: large;
+  text-shadow: 1px 1px gray;
+}
+
+nav ul li .appt {
+  margin-left: -10rem;
 }
 
 .hero {
@@ -61,10 +66,6 @@ nav ul li {
   font-size: xx-large;
 }
 
-.hero .center h1 {
-  margin-right: 2rem;
-}
-
 .hero .image-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,6 +86,8 @@ nav ul li {
 
 .services {
   margin-top: 15rem;
+  background-color: rgba(0, 128, 128, 0.6);
+  padding: 3rem;
 }
 
 .services h1 {
@@ -118,6 +121,17 @@ nav ul li {
   font-size: x-large;
   text-align: center;
   font-family: 'Libre Bodoni', serif;
+  background-color: coral;
+  padding: 3rem;
+  border-radius: 15%;
+}
+
+.h3 {
+  font-family: 'Fresca', sans-serif;
+  font-size: xxx-large;
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: -10%;
 }
 
 .insurances {
@@ -135,14 +149,8 @@ nav ul li {
 }
 
 .insurances img {
-  height: 60vh;
-  width: 40rem;
-}
-
-.insurances .h3 {
-  font-family: 'Fresca', sans-serif;
-  font-size: xxx-large;
-  margin-bottom: 5rem;
+  height: 75vh;
+  width: 30rem;
 }
 
 .insurances .desc-insurance {
@@ -169,7 +177,8 @@ nav ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 5%;
+  background-color: rgba(222, 93, 131, 0.6);
+  padding-bottom: 10rem;
 }
 
 .new-patient .header {
@@ -180,11 +189,12 @@ nav ul li {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 5rem;
   font-family: 'Fresca', sans-serif;
+  height: 30vh;
 }
 
 .new-patient .header h4 {
@@ -225,18 +235,26 @@ nav ul li {
 }
 
 .new-patient .desc-instructions p {
-  font-size: large;
+  font-size: xx-large;
   font-weight: 700;
   font-family: 'Libre Bodoni', serif;
-  height: 5rem;
-  width: 20rem;
-  padding: 0rem 5rem 0rem 5rem;
+  height: 25rem;
+  width: 20vw;
+  padding: 2rem 5rem 0rem 5rem;
   text-align: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  background-color: antiquewhite;
+  border-radius: 15%;
 }
 
 .new-patient button {
-  margin: 5%;
-  width: 5%;
+  margin-top: 10%;
+  height: 5vh;
+  width: 15vw;
+  background-color: rgba(0, 128, 128, 0.8);
+  border: wheat;
+  border-radius: 5%;
 }
 
 .address {
@@ -262,8 +280,8 @@ nav ul li {
 }
 
 .address img {
-  height: 60vh;
-  width: 40em;
+  height: 85vh;
+  width: 40vw;
   border-radius: 15%;
 }
 
