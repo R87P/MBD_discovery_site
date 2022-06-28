@@ -5,9 +5,13 @@
     
 }
 
+
+
 body {
     background: rgb(244,235,217);
 }
+
+
 
 nav {
 
@@ -23,6 +27,7 @@ nav {
             font-family: 'Roboto', sans-serif;
             font-size: large;
             text-shadow: 1px 1px gray;
+            color: #62466B;
             
             .appt {
                 margin-left: -10rem;
@@ -30,6 +35,8 @@ nav {
         }
     }
 }
+
+
 
 // hero section
 .hero {
@@ -68,6 +75,8 @@ nav {
     }
 }
 
+
+
 .services {
     margin-top: 15rem;
     background-color: rgba(0, 128, 128, 0.6);
@@ -87,16 +96,19 @@ nav {
         .desc-services {
             display: flex;
             flex-direction: column;
-            margin-top: 6rem;
+            margin-top: 3rem;
             font-size: x-large;
             text-align: center;
             font-family: 'Libre Bodoni', serif;
-            background-color: rgb(255, 127, 80);
+            background-color: rgba(255, 127, 80, 0.8);
+            box-shadow: 0px 0px 5px 5px rgba(238, 235, 235, 0.8);
             padding: 3rem;
             border-radius: 15%;
         }
     }
 }
+
+
 
 
   .h3 {
@@ -106,6 +118,8 @@ nav {
         margin-top: 20%;
         margin-bottom: -10%;
     }
+
+
 
 .insurances {
     display: flex;
@@ -135,6 +149,8 @@ nav {
         font-size: xx-large;
     }
 }
+
+
 
 .new-patient {
 
@@ -168,33 +184,40 @@ nav {
         align-items: center;
         font-size: xx-large;
         font-family: 'Fresca', sans-serif;
+
+        h3 {
+            margin-bottom: -15%;
+        }
+      
     }
 
     .desc-instructions {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-     
+        justify-content: space-around;
+        margin-top: 5em;
+        
 
         p{
-            font-size: xx-large;
+            font-size: 1.5rem;
             font-weight: 700;
             font-family: 'Libre Bodoni', serif;
             height: 25rem;
             width: 20vw;
             padding: 2rem 5rem 0rem 5rem;
             text-align: center;
-            margin-left: 10rem;
-            margin-right: 10rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
             background-color: antiquewhite;
             border-radius: 15%;
+            box-shadow: 0px 0px 5px 5px rgba(235, 237, 238, 0.8);
         }
         
     }
     
     button {
         margin-top: 10%;
-        height: 5vh;
+        height: 10vh;
         width: 15vw;
         background-color: rgba(0, 128, 128, 0.8);
         border: wheat;
@@ -202,6 +225,8 @@ nav {
     }
 
 }
+
+
 
 .address {
 
@@ -226,6 +251,8 @@ nav {
     
 }
 
+
+
 footer {
     margin-top: 5rem;
     display: flex;
@@ -233,6 +260,8 @@ footer {
     justify-content: space-between;
     font-family: 'Capriola', sans-serif;
 }
+
+
 
 @media screen and (max-width: 480px){
 
