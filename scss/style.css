@@ -8,6 +8,12 @@ body {
   background: #f4ebd9;
 }
 
+nav {
+  margin-top: -1em;
+  padding-left: 1em;
+  height: 15vh;
+}
+
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -137,165 +143,6 @@ nav ul li .appt {
   margin-bottom: -10%;
 }
 
-.page-contain {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: #E7F3F1;
-  border: .75em solid white;
-  padding: 2em;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.data-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  max-width: 20.75em;
-  min-height: 20.75em;
-  overflow: hidden;
-  border-radius: .5em;
-  text-decoration: none;
-  background: white;
-  margin: 1em;
-  padding: 2.75em 2.5em;
-  -webkit-box-shadow: 0 1.5em 2.5em -0.5em rgba(0, 0, 0, 0.1);
-          box-shadow: 0 1.5em 2.5em -0.5em rgba(0, 0, 0, 0.1);
-  -webkit-transition: background .45s ease, -webkit-transform .45s ease;
-  transition: background .45s ease, -webkit-transform .45s ease;
-  transition: transform .45s ease, background .45s ease;
-  transition: transform .45s ease, background .45s ease, -webkit-transform .45s ease;
-}
-
-.data-card h3 {
-  color: #2E3C40;
-  font-size: 3.5em;
-  font-weight: 600;
-  line-height: 1;
-  padding-bottom: .5em;
-  margin: 0 0 0.142857143em;
-  border-bottom: 2px solid #753BBD;
-  -webkit-transition: color .45s ease, border .45s ease;
-  transition: color .45s ease, border .45s ease;
-}
-
-.data-card h4 {
-  color: #627084;
-  text-transform: uppercase;
-  font-size: 1.125em;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: 0.1em;
-  margin: 0 0 1.777777778em;
-  -webkit-transition: color .45s ease;
-  transition: color .45s ease;
-}
-
-.data-card p {
-  opacity: 0;
-  color: #FFFFFF;
-  font-weight: 600;
-  line-height: 1.8;
-  margin: 0 0 1.25em;
-  -webkit-transform: translateY(-1em);
-          transform: translateY(-1em);
-  -webkit-transition: opacity .45s ease, -webkit-transform .5s ease;
-  transition: opacity .45s ease, -webkit-transform .5s ease;
-  transition: opacity .45s ease, transform .5s ease;
-  transition: opacity .45s ease, transform .5s ease, -webkit-transform .5s ease;
-}
-
-.data-card .link-text {
-  display: block;
-  color: #753BBD;
-  font-size: 1.125em;
-  font-weight: 600;
-  line-height: 1.2;
-  margin: auto 0 0;
-  -webkit-transition: color .45s ease;
-  transition: color .45s ease;
-}
-
-.data-card .link-text svg {
-  margin-left: .5em;
-  -webkit-transition: -webkit-transform .6s ease;
-  transition: -webkit-transform .6s ease;
-  transition: transform .6s ease;
-  transition: transform .6s ease, -webkit-transform .6s ease;
-}
-
-.data-card .link-text svg path {
-  -webkit-transition: fill .45s ease;
-  transition: fill .45s ease;
-}
-
-.data-card:hover {
-  background: #753BBD;
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
-}
-
-.data-card:hover h3 {
-  color: #FFFFFF;
-  border-bottom-color: #A754C4;
-}
-
-.data-card:hover h4 {
-  color: #FFFFFF;
-}
-
-.data-card:hover p {
-  opacity: 1;
-  -webkit-transform: none;
-          transform: none;
-}
-
-.data-card:hover .link-text {
-  color: #FFFFFF;
-}
-
-.data-card:hover .link-text svg {
-  -webkit-animation: point 1.25s infinite alternate;
-          animation: point 1.25s infinite alternate;
-}
-
-.data-card:hover .link-text svg path {
-  fill: #FFFFFF;
-}
-
-@-webkit-keyframes point {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(0.125em);
-            transform: translateX(0.125em);
-  }
-}
-
-@keyframes point {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(0.125em);
-            transform: translateX(0.125em);
-  }
-}
-
 .insurances {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -339,8 +186,9 @@ nav ul li .appt {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(222, 93, 131, 0.6);
+  background-color: rgba(222, 93, 131, 0.8);
   padding-bottom: 10rem;
+  width: 100vw;
 }
 
 .new-patient .header {
@@ -356,19 +204,38 @@ nav ul li .appt {
           justify-content: space-between;
   margin-top: 5rem;
   font-family: 'Fresca', sans-serif;
-  height: 30vh;
 }
 
 .new-patient .header h4 {
-  font-size: xxx-large;
+  font-size: xx-large;
 }
 
 .new-patient .header img {
-  margin-top: 2rem;
-  height: 4rem;
+  height: 20vh;
+  width: 10vw;
 }
 
-.new-patient .download {
+.new-patient h4 {
+  margin-bottom: -5em;
+}
+
+.new-patient .page-contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: transparent;
+  padding: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.new-patient .data-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -376,53 +243,158 @@ nav ul li .appt {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: xx-large;
-  font-family: 'Fresca', sans-serif;
+  max-width: 20.75em;
+  min-height: 20.75em;
+  overflow: hidden;
+  border-radius: .5em;
+  text-decoration: none;
+  background: white;
+  margin: 1em;
+  padding: 2.75em 2.5em;
+  -webkit-box-shadow: 0 1.5em 2.5em -0.5em rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1.5em 2.5em -0.5em rgba(0, 0, 0, 0.1);
+  -webkit-transition: background .45s ease, -webkit-transform .45s ease;
+  transition: background .45s ease, -webkit-transform .45s ease;
+  transition: transform .45s ease, background .45s ease;
+  transition: transform .45s ease, background .45s ease, -webkit-transform .45s ease;
 }
 
-.new-patient .download h3 {
-  margin-bottom: -15%;
+.new-patient .data-card h3 {
+  color: #2E3C40;
+  font-size: 3.5em;
+  font-weight: 600;
+  line-height: 1;
+  padding-bottom: .5em;
+  margin: 0 0 0.142857143em;
+  border-bottom: 2px solid #753BBD;
+  -webkit-transition: color .45s ease, border .45s ease;
+  transition: color .45s ease, border .45s ease;
 }
 
-.new-patient .desc-instructions {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-top: 5em;
-}
-
-.new-patient .desc-instructions p {
-  font-size: 1.5rem;
+.new-patient .data-card h4 {
+  color: #627084;
+  text-transform: uppercase;
+  font-size: 1.125em;
   font-weight: 700;
-  font-family: 'Libre Bodoni', serif;
-  height: 25rem;
-  width: 20vw;
-  padding: 2rem 5rem 0rem 5rem;
-  text-align: center;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  background-color: antiquewhite;
-  border-radius: 15%;
-  -webkit-box-shadow: 0px 0px 5px 5px rgba(235, 237, 238, 0.8);
-          box-shadow: 0px 0px 5px 5px rgba(235, 237, 238, 0.8);
+  line-height: 1;
+  letter-spacing: 0.1em;
+  margin: 0 0 1.777777778em;
+  -webkit-transition: color .45s ease;
+  transition: color .45s ease;
+}
+
+.new-patient .data-card p {
+  opacity: 0;
+  color: #FFFFFF;
+  font-weight: 600;
+  line-height: 1.8;
+  margin: 0 0 1.25em;
+  -webkit-transform: translateY(-1em);
+          transform: translateY(-1em);
+  -webkit-transition: opacity .45s ease, -webkit-transform .5s ease;
+  transition: opacity .45s ease, -webkit-transform .5s ease;
+  transition: opacity .45s ease, transform .5s ease;
+  transition: opacity .45s ease, transform .5s ease, -webkit-transform .5s ease;
+}
+
+.new-patient .data-card .link-text {
+  display: block;
+  color: #753BBD;
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: auto 0 0;
+  -webkit-transition: color .45s ease;
+  transition: color .45s ease;
+}
+
+.new-patient .data-card .link-text svg {
+  margin-left: .5em;
+  -webkit-transition: -webkit-transform .6s ease;
+  transition: -webkit-transform .6s ease;
+  transition: transform .6s ease;
+  transition: transform .6s ease, -webkit-transform .6s ease;
+}
+
+.new-patient .data-card .link-text svg path {
+  -webkit-transition: fill .45s ease;
+  transition: fill .45s ease;
+}
+
+.new-patient .data-card:hover {
+  background: #753BBD;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.new-patient .data-card:hover h3 {
+  color: #FFFFFF;
+  border-bottom-color: #A754C4;
+}
+
+.new-patient .data-card:hover h4 {
+  color: #FFFFFF;
+}
+
+.new-patient .data-card:hover p {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.new-patient .data-card:hover .link-text {
+  color: #FFFFFF;
+}
+
+.new-patient .data-card:hover .link-text svg {
+  -webkit-animation: point 1.25s infinite alternate;
+          animation: point 1.25s infinite alternate;
+}
+
+.new-patient .data-card:hover .link-text svg path {
+  fill: #FFFFFF;
+}
+
+@-webkit-keyframes point {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(0.125em);
+            transform: translateX(0.125em);
+  }
+}
+
+@keyframes point {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(0.125em);
+            transform: translateX(0.125em);
+  }
 }
 
 .new-patient button {
-  margin-top: 10%;
-  height: 10vh;
-  width: 15vw;
-  background-color: rgba(0, 128, 128, 0.8);
+  margin-top: .5em;
+  height: 15vh;
+  width: 20vw;
+  background-color: #F4EBD9;
   border: wheat;
-  border-radius: 5%;
+  border-radius: .5em;
+  color: black;
+  border: 3px solid #753BBD;
+}
+
+.new-patient button:hover {
+  -webkit-box-shadow: 0px 0px 2px 2px #F4EBD9;
+          box-shadow: 0px 0px 2px 2px #F4EBD9;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  background-color: #753BBD;
+  border: 3px solid #F4EBD9;
 }
 
 .address {
