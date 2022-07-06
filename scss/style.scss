@@ -130,11 +130,11 @@ nav {
             text-align: center;
             font-family: 'Libre Bodoni', serif;
             background-color: #753BBD;
-            box-shadow: 0px 0px 10px 2px #753BBD;
+            box-shadow: 0px 0px 10px 2px #ebebeb;
             padding: 3rem;
             border-radius: 15%;
             padding-bottom: 2rem;
-            border: 1.5px solid black;
+            // border: 1.5px solid black;
             margin: 4rem;
         }
 
@@ -197,7 +197,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(222, 93, 131, 0.8);
+    background-color: rgba(248, 204, 70, 0.7);
     padding-bottom: 10rem;
     width: 100vw;
     
@@ -371,7 +371,7 @@ nav {
     flex-direction: row-reverse;
     justify-content: space-evenly;
     margin-top: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 10rem;
 
     .desc-address {
             font-size: xx-large;
@@ -381,14 +381,18 @@ nav {
         }
 
     img {
-        height: 85vh;
-        width: 40vw;
+        height: 95vh;
+        width: 55vw;
         border-radius: 15%;
+        margin-left: 2rem;
     }
     
 }
 
 
+.moon {
+    margin-left: 27rem;
+}
 
 footer {
     margin-top: 5rem;
