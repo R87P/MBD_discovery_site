@@ -8,37 +8,51 @@
 
 
 body {
-    background: rgb(244,235,217);
+    background: rgb(243, 241, 237);
 }
 
 
 
 nav {
 
-    margin-top: -1em;
     padding-left: 1em;
     height: 15vh;
+    
     
 
     ul {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            
 
         li {
             display: flex;
             flex-direction: column;
             text-align: center;
             font-family: 'Roboto', sans-serif;
-            font-size: large;
-            text-shadow: 1px 1px gray;
-            color: #62466B;
-            
-            .appt {
-                margin-left: -10rem;
+            font-size: 1.5rem;
+            text-shadow: 1px 1px rgb(18, 17, 17);
+            color: #0a0a0a;
+
+            img {
+                margin-top: 1rem;
+                height: 20vh;
+                width: 10vw;
             }
+            
+            ul {
+             
+
+                li {
+                    margin: 2rem;
+                }
+            }
+           
         }
     }
+
+   
 }
 
 
@@ -48,20 +62,22 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 5rem;
+    margin-top: 10em;
     margin-bottom: 5rem;
 
     .discover {
         margin-top: 10rem;
         font-family: 'Capriola', sans-serif;
         font-size: xx-large;
+        margin-left: -3rem;
+        
     }
 
     .center {
         margin-top: 10rem;
         font-family: 'Capriola', sans-serif;
         font-size: xx-large;
-        
+        padding-right: 2rem;
        
     }
 
@@ -73,9 +89,17 @@ nav {
         font-family: 'Capriola', sans-serif;
         font-size: xx-large;
         
+        img {
+            margin-right: -1.25em;
+        }
+
 
         h1 {
-            margin-right: 1rem;
+           margin-bottom: 7rem;
+        }
+
+        h3 {
+            margin-top: 3rem;
         }
     }
 }
@@ -84,13 +108,13 @@ nav {
 
 .services {
     margin-top: 15rem;
-    background-color: rgba(0, 128, 128, 0.6);
+    background-color: rgb(98, 70, 107);
     padding: 3rem;
 
     h1 {
         text-align: center;
         font-family: 'Fresca', sans-serif;
-        font-size: xx-large;
+        font-size: xxx-large;
     }
 
     .service-container {
@@ -105,10 +129,17 @@ nav {
             font-size: x-large;
             text-align: center;
             font-family: 'Libre Bodoni', serif;
-            background-color: rgba(255, 127, 80, 0.8);
-            box-shadow: 0px 0px 5px 5px rgba(238, 235, 235, 0.8);
+            background-color: rgba(0, 128, 128, 0.7);
+            box-shadow: 0px 0px 10px 2px rgba(238, 235, 235, 0.8);
             padding: 3rem;
             border-radius: 15%;
+            padding-bottom: 2rem;
+        }
+
+        padding-bottom: 3rem;
+
+        img {
+           
         }
     }
 }
