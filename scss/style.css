@@ -485,6 +485,29 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .hero .discover {
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 1.75rem;
+  }
+  .hero .image-container h1 {
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 1.75rem;
+  }
+  .hero .image-container .center {
+    font-size: xxx-large;
+    margin-bottom: 5rem;
+    text-align: center;
+    margin-left: 1.75rem;
+    margin-top: -.25rem;
+  }
+  .hero .image-container p {
+    font-size: large;
+  }
+  .services {
+    width: 100vw;
+  }
   .services .service-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -494,18 +517,54 @@ footer {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     margin-top: 5rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .services .service-container .desc-services {
     text-align: center;
+    width: 75vw;
+    height: 50vh;
+    margin-left: -1.20rem;
+  }
+  .services .service-container img {
+    height: 50vh;
+    width: 75vw;
   }
   .insurances {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .insurances img {
+    height: 50vh;
+    width: 75vw;
+    padding-top: -1.5rem;
+    margin-right: 2.5rem;
+  }
+  .new-patient .header {
+    font-size: large;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+  }
+  .new-patient .header img {
+    height: 15vh;
+    width: 20vw;
   }
   .new-patient .desc-instructions {
     display: -webkit-box;
@@ -516,8 +575,32 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  button {
-    margin: 0rem;
+  .new-patient .page-contain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .new-patient button {
+    width: 25vw;
+    height: 5vh;
+  }
+  .address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .address img {
+    width: 100vw;
+    height: 50vh;
+    margin-left: -1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
