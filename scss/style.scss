@@ -88,6 +88,10 @@ nav {
         font-weight: 600;
         font-family: 'Capriola', sans-serif;
         font-size: xx-large;
+
+        .center-mobile {
+            display: none;
+        }
         
         img {
             margin-right: -1.25em;
@@ -375,6 +379,10 @@ nav {
             font-weight: 800;
             text-align: center;
             margin-top: 3rem;
+
+            .moon {
+               display: none;
+            }
         }
 
     img {
@@ -388,8 +396,9 @@ nav {
 
 
 .moon {
-    margin-left: 45em;
-    margin-right: 45em;
+    height: 60vh;
+    width: 35vw;
+    margin-left: 40em;
 }
 
 footer {
@@ -405,16 +414,38 @@ footer {
 
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
 
      body {
          display: flex;
          flex-direction: column;
      }
 
+     nav {
+
+        ul {
+
+          li{
+
+            img {
+                height: 20vh;
+                width: 30vw;
+                
+            }
+
+          }
+            .nav {
+                li {
+                    display: none;
+                }
+            }
+         }
+     }
+     
+
      .hero {
-        //  display: flex;
-        //  flex-direction: column;
+         display: flex;
+         flex-direction: column;
 
          .discover {
             font-size: xx-large;
@@ -429,17 +460,18 @@ footer {
                 margin-left: 1.75rem;
              }
 
-             .center {
-                font-size: xxx-large;
-                margin-bottom: 5rem;
+             .center-mobile {
+                margin-top: -1.5em;
+                display: block;
+                font-size: xx-large;
                 text-align: center;
-                margin-left: 1.75rem;
-                margin-top: -.25rem;
+                // margin-left: 1.75rem;
              }
+         }
 
-             p {
-                font-size: large;
-             }
+         .center {
+            display: none;
+            
          }
      }
 
@@ -475,7 +507,7 @@ footer {
          img {
             height: 50vh;
             width: 75vw;
-            padding-top: -1.5rem;
+            // padding-top: -1.5rem;
             margin-right: 2.5rem;
          }
 
@@ -489,10 +521,10 @@ footer {
             font-size: large;
             text-align: center;
             display: flex;
-            flex-direction: row;
+            flex-direction: row-reverse;
             justify-content: space-around;
             margin-left: 3rem;
-            margin-bottom: 1rem;
+            // margin-bottom: 5em;
 
             img {
                 height: 15vh;
@@ -500,17 +532,18 @@ footer {
             }
         }
 
-        .desc-instructions {
-            display: flex;
-            flex-direction: column;
+        h3 {
+            margin-bottom: -1.5em;
         }
 
         .page-contain {
             display: flex;
             flex-direction: column;
+            margin-top: 8em;
         }
 
         button {
+            margin-top: 3em;
             width: 25vw;
             height: 5vh;
 
@@ -527,7 +560,26 @@ footer {
             height: 50vh;
             margin-left: -1rem;
         }
-     }
-    
 
+        .desc-address {
+            display: flex;
+            flex-direction: column;
+
+            .moon {
+                display: inline;
+                margin-top: 3em;
+                margin-bottom: -3em;
+            }
+         }
+     }
+
+    
+    .moon {
+        display: none;
+    }
+   
+
+     footer {
+        font-size: small;
+     }
 }
