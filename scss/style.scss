@@ -1528,6 +1528,7 @@ footer {
      .hero {
          display: flex;
          flex-direction: column;
+         align-items: center;
 
          .discover {
             margin-top: -3em;
@@ -1537,30 +1538,25 @@ footer {
          }
 
          .image-container {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
              h1 {
                 font-size: xx-large;
-                text-align: center;
-                margin-left: 2.5em;
-             }
+            }
 
              .center-mobile {
                 margin-top: -1.5em;
                 display: block;
                 font-size: xx-large;
-                text-align: center;
-                margin-left: 4.5em;
-             }
-
-             h3 {
-                text-align: center;
+         
+          
              }
          }
-
-         .center {
-            display: none;
-            
-         }
-     }
+    }
 
      .services{
 
